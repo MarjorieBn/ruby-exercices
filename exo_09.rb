@@ -1,7 +1,9 @@
-puts "Quel est ton prénom ?"
-first_name = gets.chomp
-puts "Quel est ton nom ?"
-last_name = gets.chomp
-puts "Bonjour, #{first_name} #{last_name} !"
+puts "Quel est ton année de naissance ?"
+num = gets.to_i
+compteur = num
+while compteur <= 2025
+    puts compteur.to_s
+    compteur += 1
+end
 
-# Écris un programme exo_09.rb qui demande le prénom de l'utilisateur, qui lui demande après son nom de famille, et qui salue l'utilisateur avec "Bonjour, prénom nom !"
+# Écris un programme exo_09.rb qui demande son année de naissance à l'utilisateur, puis qui va ressortir chaque année depuis son année de naissance jusqu'aujourd'hui.
