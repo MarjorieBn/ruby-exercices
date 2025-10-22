@@ -3,6 +3,9 @@ age = gets.to_i
 compteur = age
 num = 0
 while compteur >= 0
+    if compteur == num
+        puts "Il y a #{num.to_s} ans, tu avais la moitié de l'âge que tu as aujourd'hui."
+    end
     puts "Il y a #{num.to_s} an(s), tu avais #{compteur.to_s} !"
     compteur -= 1
     num += 1
